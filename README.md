@@ -37,7 +37,7 @@ This repository showcases a comprehensive Business Intelligence project built on
 - `Azure Databricks`: Utilized as a Data Lakehouse solution to perform ETL processes and distributed data transformations, combining the flexibility of data lakes with the structure of a data warehouse. Azure Databricks enables scalable and efficient data processing and advanced analytics.
 - `Azure Data Lake Storage (ADLS)`: Serves as the primary storage layer, handling raw, intermediate, and final datasets. It integrates seamlessly with Azure Databricks to provide scalable and secure data storage.
 - `Azure Data Factory`: Orchestrates and controls the entire ETL pipeline, automating the ingestion, transformation, and loading of data across different processing layers. It ensures seamless data movement and scheduling, connecting different services within the pipeline.
--`PowerBI`: Acts as the front-end visualization tool, where processed data is loaded and transformed into meaningful insights. Power BI enables users to build interactive dashboards and reports, providing real-time data analytics that support informed business decision-making.
+- `PowerBI`: Acts as the front-end visualization tool, where processed data is loaded and transformed into meaningful insights. Power BI enables users to build interactive dashboards and reports, providing real-time data analytics that support informed business decision-making.
 
 ## Data Sources
 
@@ -88,4 +88,4 @@ Link to the [dashboard](https://app.powerbi.com/view?r=eyJrIjoiNzk2MTdiZmUtYWY1M
 5. Import the dbc file found in this [link](https://learn.microsoft.com/en-us/azure/databricks/partners/bi/power-bi) into that folder so you can help all of the files in the project structure.
 6. Develop and test the data pipeline in Databricks, ensuring data transformation from bronze to silver to gold.
 7. Build interactive dashboards in Power BI to provide insights on customer profitability, product sales, and revenue growth.
-8. Implement full-load and incremental-load automate process to scale the data pipeline and ensure up-to-date insights.
+8. Implement full-load and incremental-load automate process with Azure Data Factory to scale the data pipeline and ensure up-to-date insights.
